@@ -115,9 +115,9 @@ console.log(table.rate_date, table.rates.length);
   name: 'Banco Central de São Tomé e Príncipe',
   rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "STN", "type": "buy", "value": 21.5536 },
-    { "base": "USD", "quote": "STN", "type": "sell", "value": 21.8769 },
     { "base": "USD", "quote": "STN", "type": "middle", "value": 21.7153 },
+    { "base": "USD", "quote": "STN", "type": "sell", "value": 21.8769 },
+    { "base": "USD", "quote": "STN", "type": "buy", "value": 21.5536 },
     // … the rest of the published table (14 currencies vs STN)
   ],
   disclaimer: '…'
