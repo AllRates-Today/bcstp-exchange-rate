@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'STN', { apiKey: 'art_live_...' });
 {
   bank: 'bcstp',
   name: 'Banco Central de São Tomé e Príncipe',
-  rate_date: '2026-09-25',   // Banco Central de São Tomé e Príncipe's own publication date
+  rate_date: '2026-10-06',   // Banco Central de São Tomé e Príncipe's own publication date
   source: 'USD',
   target: 'STN',
-  rate: 21.7153,
+  rate: 22.0312,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcstp',
   name: 'Banco Central de São Tomé e Príncipe',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "STN", "type": "middle", "value": 21.7153 },
-    { "base": "USD", "quote": "STN", "type": "sell", "value": 21.8769 },
-    { "base": "USD", "quote": "STN", "type": "buy", "value": 21.5536 },
+    { "base": "USD", "quote": "STN", "type": "middle", "value": 22.0312 },
+    { "base": "USD", "quote": "STN", "type": "sell", "value": 22.1952 },
+    { "base": "USD", "quote": "STN", "type": "buy", "value": 21.8672 },
     // … the rest of the published table (14 currencies vs STN)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bcstp-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'STN', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'STN', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'STN',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 21.7153, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 22.0312, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
