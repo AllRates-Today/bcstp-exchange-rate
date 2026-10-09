@@ -40,52 +40,52 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Banco Central de São Tomé e Príncipe table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-08.
+Published **2026-10-09** by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-09.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BRL | STN | buy | 4.3787 |
-| BRL | STN | middle | 4.4115 |
-| BRL | STN | sell | 4.4444 |
-| CAD | STN | buy | 15.3788 |
-| CAD | STN | middle | 15.4942 |
-| CAD | STN | sell | 15.6095 |
-| CHF | STN | buy | 26.3186 |
-| CHF | STN | middle | 26.516 |
-| CHF | STN | sell | 26.7134 |
-| CNY | STN | buy | 3.2694 |
-| CNY | STN | middle | 3.2939 |
-| CNY | STN | sell | 3.3185 |
-| DKK | STN | buy | 3.2778 |
-| DKK | STN | middle | 3.3024 |
-| DKK | STN | sell | 3.327 |
+| BRL | STN | buy | 4.3658 |
+| BRL | STN | middle | 4.3985 |
+| BRL | STN | sell | 4.4313 |
+| CAD | STN | buy | 15.3576 |
+| CAD | STN | middle | 15.4728 |
+| CAD | STN | sell | 15.588 |
+| CHF | STN | buy | 26.2706 |
+| CHF | STN | middle | 26.4677 |
+| CHF | STN | sell | 26.6647 |
+| CNY | STN | buy | 3.2679 |
+| CNY | STN | middle | 3.2924 |
+| CNY | STN | sell | 3.3169 |
+| DKK | STN | buy | 3.2781 |
+| DKK | STN | middle | 3.3027 |
+| DKK | STN | sell | 3.3272 |
 | EUR | STN | buy | 24.5 |
 | EUR | STN | middle | 24.5 |
 | EUR | STN | sell | 24.5 |
-| GBP | STN | buy | 28.9444 |
-| GBP | STN | middle | 29.1615 |
-| GBP | STN | sell | 29.3786 |
-| JPY | STN | buy | 0.1385 |
-| JPY | STN | middle | 0.1396 |
-| JPY | STN | sell | 0.1406 |
-| NOK | STN | buy | 2.2872 |
-| NOK | STN | middle | 2.3043 |
-| NOK | STN | sell | 2.3215 |
-| SEK | STN | buy | 2.1828 |
-| SEK | STN | middle | 2.1992 |
-| SEK | STN | sell | 2.2156 |
-| USD | STN | buy | 21.92 |
-| USD | STN | middle | 22.0844 |
-| USD | STN | sell | 22.2488 |
+| GBP | STN | buy | 28.9263 |
+| GBP | STN | middle | 29.1432 |
+| GBP | STN | sell | 29.3602 |
+| JPY | STN | buy | 0.1384 |
+| JPY | STN | middle | 0.1394 |
+| JPY | STN | sell | 0.1405 |
+| NOK | STN | buy | 2.2861 |
+| NOK | STN | middle | 2.3032 |
+| NOK | STN | sell | 2.3204 |
+| SEK | STN | buy | 2.1887 |
+| SEK | STN | middle | 2.2051 |
+| SEK | STN | sell | 2.2215 |
+| USD | STN | buy | 21.9024 |
+| USD | STN | middle | 22.0666 |
+| USD | STN | sell | 22.2309 |
 | XAF | STN | buy | 0.0374 |
 | XAF | STN | middle | 0.0376 |
 | XAF | STN | sell | 0.0379 |
-| XDR | STN | buy | 29.6401 |
-| XDR | STN | middle | 29.6401 |
-| XDR | STN | sell | 29.6401 |
-| ZAR | STN | buy | 1.3134 |
-| ZAR | STN | middle | 1.3232 |
-| ZAR | STN | sell | 1.3331 |
+| XDR | STN | buy | 29.6086 |
+| XDR | STN | middle | 29.6086 |
+| XDR | STN | sell | 29.6086 |
+| ZAR | STN | buy | 1.3154 |
+| ZAR | STN | middle | 1.3253 |
+| ZAR | STN | sell | 1.3352 |
 
 Source: [Official rates published by BCSTP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcstp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
