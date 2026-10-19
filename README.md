@@ -33,61 +33,64 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bcstp').t
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Banco Central de São Tomé e Príncipe table](https://allratestoday.com/api/open/central-bank/bcstp/table.svg)](https://allratestoday.com/central-bank-rates-api/bcstp/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BRL | STN | buy | 4.3226 |
-| BRL | STN | middle | 4.355 |
-| BRL | STN | sell | 4.3874 |
-| CAD | STN | buy | 15.3865 |
-| CAD | STN | middle | 15.5019 |
-| CAD | STN | sell | 15.6173 |
-| CHF | STN | buy | 26.3299 |
-| CHF | STN | middle | 26.5274 |
-| CHF | STN | sell | 26.7249 |
-| CNY | STN | buy | 3.267 |
-| CNY | STN | middle | 3.2915 |
-| CNY | STN | sell | 3.316 |
-| DKK | STN | buy | 3.2776 |
-| DKK | STN | middle | 3.3022 |
+| BRL | STN | buy | 4.2834 |
+| BRL | STN | middle | 4.3156 |
+| BRL | STN | sell | 4.3477 |
+| CAD | STN | buy | 15.375 |
+| CAD | STN | middle | 15.4903 |
+| CAD | STN | sell | 15.6056 |
+| CHF | STN | buy | 26.4236 |
+| CHF | STN | middle | 26.6218 |
+| CHF | STN | sell | 26.82 |
+| CNY | STN | buy | 3.2562 |
+| CNY | STN | middle | 3.2807 |
+| CNY | STN | sell | 3.3051 |
+| DKK | STN | buy | 3.2777 |
+| DKK | STN | middle | 3.3023 |
 | DKK | STN | sell | 3.3268 |
 | EUR | STN | buy | 24.5 |
 | EUR | STN | middle | 24.5 |
 | EUR | STN | sell | 24.5 |
-| GBP | STN | buy | 28.9564 |
-| GBP | STN | middle | 29.1736 |
-| GBP | STN | sell | 29.3907 |
-| JPY | STN | buy | 0.1384 |
-| JPY | STN | middle | 0.1394 |
-| JPY | STN | sell | 0.1404 |
-| NOK | STN | buy | 2.3 |
-| NOK | STN | middle | 2.3173 |
-| NOK | STN | sell | 2.3345 |
-| SEK | STN | buy | 2.1921 |
-| SEK | STN | middle | 2.2085 |
-| SEK | STN | sell | 2.225 |
-| USD | STN | buy | 21.8594 |
-| USD | STN | middle | 22.0233 |
-| USD | STN | sell | 22.1873 |
+| GBP | STN | buy | 29.0336 |
+| GBP | STN | middle | 29.2513 |
+| GBP | STN | sell | 29.4691 |
+| JPY | STN | buy | 0.1378 |
+| JPY | STN | middle | 0.1388 |
+| JPY | STN | sell | 0.1398 |
+| NOK | STN | buy | 2.3061 |
+| NOK | STN | middle | 2.3234 |
+| NOK | STN | sell | 2.3407 |
+| SEK | STN | buy | 2.1983 |
+| SEK | STN | middle | 2.2148 |
+| SEK | STN | sell | 2.2313 |
+| USD | STN | buy | 21.772 |
+| USD | STN | middle | 21.9353 |
+| USD | STN | sell | 22.0986 |
 | XAF | STN | buy | 0.0374 |
 | XAF | STN | middle | 0.0376 |
 | XAF | STN | sell | 0.0379 |
-| XDR | STN | buy | 29.5976 |
-| XDR | STN | middle | 29.5976 |
-| XDR | STN | sell | 29.5976 |
-| ZAR | STN | buy | 1.3203 |
-| ZAR | STN | middle | 1.3302 |
-| ZAR | STN | sell | 1.3401 |
+| XDR | STN | buy | 29.5329 |
+| XDR | STN | middle | 29.5329 |
+| XDR | STN | sell | 29.5329 |
+| ZAR | STN | buy | 1.3248 |
+| ZAR | STN | middle | 1.3348 |
+| ZAR | STN | sell | 1.3447 |
+
+</details>
 
 Source: [Official rates published by BCSTP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcstp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -362,7 +365,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bcstp-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bcstp-exchange-rate)
 
 ## 📜 License
