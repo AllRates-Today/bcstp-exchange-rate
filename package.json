@@ -1,6 +1,6 @@
 {
   "name": "bcstp-exchange-rate",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "Official Banco Central de São Tomé e Príncipe (São Tomé and Príncipe) daily exchange rates — 14 currencies vs STN, history since 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bcstp",
@@ -30,7 +30,17 @@
     "official-rates",
     "sao-tome-and-principe",
     "api",
-    "typescript"
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "homepage": "https://allratestoday.com/central-bank-rates-api/bcstp/",
   "repository": {
