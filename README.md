@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BRL | STN | buy | 4.1091 |
-| BRL | STN | middle | 4.1399 |
-| BRL | STN | sell | 4.1707 |
-| CAD | STN | buy | 15.669 |
-| CAD | STN | middle | 15.7865 |
-| CAD | STN | sell | 15.904 |
-| CHF | STN | buy | 26.518 |
-| CHF | STN | middle | 26.7169 |
-| CHF | STN | sell | 26.9158 |
-| CNY | STN | buy | 3.2955 |
-| CNY | STN | middle | 3.3203 |
-| CNY | STN | sell | 3.345 |
-| DKK | STN | buy | 3.2779 |
-| DKK | STN | middle | 3.3025 |
-| DKK | STN | sell | 3.3271 |
+| BRL | STN | buy | 4.131 |
+| BRL | STN | middle | 4.162 |
+| BRL | STN | sell | 4.193 |
+| CAD | STN | buy | 15.667 |
+| CAD | STN | middle | 15.7845 |
+| CAD | STN | sell | 15.902 |
+| CHF | STN | buy | 26.4951 |
+| CHF | STN | middle | 26.6938 |
+| CHF | STN | sell | 26.8925 |
+| CNY | STN | buy | 3.3011 |
+| CNY | STN | middle | 3.3259 |
+| CNY | STN | sell | 3.3506 |
+| DKK | STN | buy | 3.278 |
+| DKK | STN | middle | 3.3026 |
+| DKK | STN | sell | 3.3272 |
 | EUR | STN | buy | 24.5 |
 | EUR | STN | middle | 24.5 |
 | EUR | STN | sell | 24.5 |
-| GBP | STN | buy | 29.2859 |
-| GBP | STN | middle | 29.5055 |
-| GBP | STN | sell | 29.7252 |
-| JPY | STN | buy | 0.1392 |
-| JPY | STN | middle | 0.1403 |
-| JPY | STN | sell | 0.1413 |
-| NOK | STN | buy | 2.3584 |
-| NOK | STN | middle | 2.3761 |
-| NOK | STN | sell | 2.3938 |
-| SEK | STN | buy | 2.2113 |
-| SEK | STN | middle | 2.2279 |
-| SEK | STN | sell | 2.2445 |
-| USD | STN | buy | 21.9731 |
-| USD | STN | middle | 22.1379 |
-| USD | STN | sell | 22.3027 |
+| GBP | STN | buy | 29.2415 |
+| GBP | STN | middle | 29.4608 |
+| GBP | STN | sell | 29.6801 |
+| JPY | STN | buy | 0.1393 |
+| JPY | STN | middle | 0.1404 |
+| JPY | STN | sell | 0.1414 |
+| NOK | STN | buy | 2.3677 |
+| NOK | STN | middle | 2.3855 |
+| NOK | STN | sell | 2.4032 |
+| SEK | STN | buy | 2.216 |
+| SEK | STN | middle | 2.2326 |
+| SEK | STN | sell | 2.2492 |
+| USD | STN | buy | 22.0066 |
+| USD | STN | middle | 22.1717 |
+| USD | STN | sell | 22.3367 |
 | XAF | STN | buy | 0.0374 |
 | XAF | STN | middle | 0.0376 |
 | XAF | STN | sell | 0.0379 |
-| XDR | STN | buy | 29.7212 |
-| XDR | STN | middle | 29.7212 |
-| XDR | STN | sell | 29.7212 |
-| ZAR | STN | buy | 1.3198 |
-| ZAR | STN | middle | 1.3297 |
-| ZAR | STN | sell | 1.3396 |
+| XDR | STN | buy | 29.748 |
+| XDR | STN | middle | 29.748 |
+| XDR | STN | sell | 29.748 |
+| ZAR | STN | buy | 1.3219 |
+| ZAR | STN | middle | 1.3318 |
+| ZAR | STN | sell | 1.3417 |
 
 </details>
 
@@ -259,6 +259,7 @@ Banco Central de São Tomé e Príncipe publishes a daily exchange bulletin for 
 
 - Publisher's own page: [Boletim de Câmbio](https://www.bcstp.st/Cambio) · [www.bcstp.st](https://www.bcstp.st)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Banco Central de São Tomé e Príncipe rates page](https://allratestoday.com/central-bank-rates-api/bcstp/)
+- In the API: usually by **12:25 UTC** (measured over the last 9 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
