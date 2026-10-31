@@ -347,6 +347,7 @@ Need the whole archive rather than an API call? The same published tables are mi
 
 ## 🔗 Links
 
+- **Website:** [allratestoday.com](https://allratestoday.com)
 - [Banco Central de São Tomé e Príncipe rates page](https://allratestoday.com/central-bank-rates-api/bcstp/) — live table, publication cadence, FAQ
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bcstp-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
