@@ -31,7 +31,57 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-_The table is filled in by the daily workflow._
+<details>
+<summary>Table as text: published 2026-11-13 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-11-15.</summary>
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| BRL | STN | buy | 3.9363 |
+| BRL | STN | middle | 3.9658 |
+| BRL | STN | sell | 3.9954 |
+| CAD | STN | buy | 15.5171 |
+| CAD | STN | middle | 15.6335 |
+| CAD | STN | sell | 15.7499 |
+| CHF | STN | buy | 26.5381 |
+| CHF | STN | middle | 26.7372 |
+| CHF | STN | sell | 26.9362 |
+| CNY | STN | buy | 3.3157 |
+| CNY | STN | middle | 3.3406 |
+| CNY | STN | sell | 3.3654 |
+| DKK | STN | buy | 3.2774 |
+| DKK | STN | middle | 3.302 |
+| DKK | STN | sell | 3.3266 |
+| EUR | STN | buy | 24.5 |
+| EUR | STN | middle | 24.5 |
+| EUR | STN | sell | 24.5 |
+| GBP | STN | buy | 29.308 |
+| GBP | STN | middle | 29.5278 |
+| GBP | STN | sell | 29.7476 |
+| JPY | STN | buy | 0.1384 |
+| JPY | STN | middle | 0.1395 |
+| JPY | STN | sell | 0.1405 |
+| NOK | STN | buy | 2.3194 |
+| NOK | STN | middle | 2.3368 |
+| NOK | STN | sell | 2.3542 |
+| SEK | STN | buy | 2.2146 |
+| SEK | STN | middle | 2.2312 |
+| SEK | STN | sell | 2.2478 |
+| USD | STN | buy | 22.1099 |
+| USD | STN | middle | 22.2757 |
+| USD | STN | sell | 22.4416 |
+| XAF | STN | buy | 0.0374 |
+| XAF | STN | middle | 0.0376 |
+| XAF | STN | sell | 0.0379 |
+| XDR | STN | buy | 29.8318 |
+| XDR | STN | middle | 29.8318 |
+| XDR | STN | sell | 29.8318 |
+| ZAR | STN | buy | 1.3228 |
+| ZAR | STN | middle | 1.3327 |
+| ZAR | STN | sell | 1.3426 |
+
+</details>
+
+Source: [Official rates published by BCSTP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcstp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
