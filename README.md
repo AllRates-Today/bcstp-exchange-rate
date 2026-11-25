@@ -32,52 +32,52 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-24 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-11-24.</summary>
+<summary>Table as text: published 2026-11-25 by Banco Central de São Tomé e Príncipe — 42 rates. Updated 2026-11-25.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BRL | STN | buy | 3.7341 |
-| BRL | STN | middle | 3.7621 |
-| BRL | STN | sell | 3.7901 |
-| CAD | STN | buy | 15.5942 |
-| CAD | STN | middle | 15.7111 |
-| CAD | STN | sell | 15.8281 |
-| CHF | STN | buy | 26.671 |
-| CHF | STN | middle | 26.8711 |
-| CHF | STN | sell | 27.0711 |
-| CNY | STN | buy | 3.3605 |
-| CNY | STN | middle | 3.3857 |
-| CNY | STN | sell | 3.4109 |
-| DKK | STN | buy | 3.2778 |
+| BRL | STN | buy | 3.8074 |
+| BRL | STN | middle | 3.8359 |
+| BRL | STN | sell | 3.8645 |
+| CAD | STN | buy | 15.5981 |
+| CAD | STN | middle | 15.7151 |
+| CAD | STN | sell | 15.8321 |
+| CHF | STN | buy | 26.6797 |
+| CHF | STN | middle | 26.8798 |
+| CHF | STN | sell | 27.0799 |
+| CNY | STN | buy | 3.3533 |
+| CNY | STN | middle | 3.3784 |
+| CNY | STN | sell | 3.4036 |
+| DKK | STN | buy | 3.2779 |
 | DKK | STN | middle | 3.3024 |
-| DKK | STN | sell | 3.3269 |
+| DKK | STN | sell | 3.327 |
 | EUR | STN | buy | 24.5 |
 | EUR | STN | middle | 24.5 |
 | EUR | STN | sell | 24.5 |
-| GBP | STN | buy | 29.2807 |
-| GBP | STN | middle | 29.5003 |
-| GBP | STN | sell | 29.7199 |
-| JPY | STN | buy | 0.1408 |
-| JPY | STN | middle | 0.1419 |
-| JPY | STN | sell | 0.1429 |
-| NOK | STN | buy | 2.2836 |
-| NOK | STN | middle | 2.3008 |
-| NOK | STN | sell | 2.3179 |
-| SEK | STN | buy | 2.1802 |
-| SEK | STN | middle | 2.1966 |
-| SEK | STN | sell | 2.2129 |
-| USD | STN | buy | 22.3969 |
-| USD | STN | middle | 22.5649 |
-| USD | STN | sell | 22.7329 |
+| GBP | STN | buy | 29.2712 |
+| GBP | STN | middle | 29.4907 |
+| GBP | STN | sell | 29.7103 |
+| JPY | STN | buy | 0.1405 |
+| JPY | STN | middle | 0.1415 |
+| JPY | STN | sell | 0.1426 |
+| NOK | STN | buy | 2.2823 |
+| NOK | STN | middle | 2.2994 |
+| NOK | STN | sell | 2.3165 |
+| SEK | STN | buy | 2.1834 |
+| SEK | STN | middle | 2.1998 |
+| SEK | STN | sell | 2.2162 |
+| USD | STN | buy | 22.3479 |
+| USD | STN | middle | 22.5155 |
+| USD | STN | sell | 22.6831 |
 | XAF | STN | buy | 0.0374 |
 | XAF | STN | middle | 0.0376 |
 | XAF | STN | sell | 0.0379 |
-| XDR | STN | buy | 30.0834 |
-| XDR | STN | middle | 30.0834 |
-| XDR | STN | sell | 30.0834 |
-| ZAR | STN | buy | 1.2793 |
-| ZAR | STN | middle | 1.2889 |
-| ZAR | STN | sell | 1.2985 |
+| XDR | STN | buy | 30.0137 |
+| XDR | STN | middle | 30.0137 |
+| XDR | STN | sell | 30.0137 |
+| ZAR | STN | buy | 1.2738 |
+| ZAR | STN | middle | 1.2834 |
+| ZAR | STN | sell | 1.2929 |
 
 </details>
 
